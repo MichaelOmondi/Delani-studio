@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
   }
   body {
-    background-image: url("../Images/Backgrounds/h_img.jpg");
+    background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,3 +10,143 @@ html {
     font-size: 2vh;
     text-align: center;
   }
+  #top {
+  height:540px;
+  font-family: "Merriweather";
+}
+.row {
+  width: 100%;
+  color: white;
+  margin-top: 15vh;
+}
+.row img:first-child {
+  margin-bottom: 2.5%;
+}
+.About {
+  background-color: white;
+  padding: 10px;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+}
+.services {
+  background-image: url("../Images/Backgrounds/s_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 10px;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+.About, .services {
+  font-family: "Lora";
+}
+#Work {
+  padding-top: 4%;
+  background-color: white;
+  font-family: "Poppins";
+}
+#Work p {
+  color: black;
+}
+#Work h4 {
+  color: black;
+  font-weight: bold;
+}
+.design-hidden {
+  display: none;
+}
+.development-hidden {
+  display: none;
+}
+.management-hidden {
+  display: none;
+}
+.clickable:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.clickable2:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.clickable3:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.portfolio {
+  border-top: 1px solid grey;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  background-color: inherit;
+  color: black;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+#portfolio {
+  max-width: 80%;
+}
+#doings {
+  width:85%;
+}
+.Contacts {
+  background-image: url("../Images/Backgrounds/c_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height:100vh;
+  padding-top: 3%;
+}
+.Contacts h1 {
+  font-weight: bold;
+}
+form {
+  width:70%;
+  margin-left: 15%;
+  margin-top: -4%;
+}
+textarea {
+  margin-top: -10%;
+  opacity: 0.4;
+}
+textarea:hover {
+  opacity: 1.1;
+  transition: 0.7s;
+}
+input {
+  opacity: 0.4;
+}
+input:hover {
+  opacity: 1.1;
+  transition: 0.7s;
+}
+.social-media {
+  height: 24vh;
+  margin-top: -7%;
+  background-color: white;
+  text-align: center;
+  font-family: "Inconsolata";
+  color: black;
+}
+.social-media .row {
+  padding-top: 2%;
+  justify-content: center;
+  width:70%;
+  margin-left: 14%;
+}
+.social-media p {
+  padding-top: 1%;
+  font-weight: bold;
+}
+.social-media img {
+  border-radius: 50%;
+}
+.social-media img:hover {
+  box-shadow: 3px 3px 5px grey, -3px 0 5px grey;
+  transition: 0.4s;
+}
