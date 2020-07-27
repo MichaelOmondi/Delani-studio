@@ -3,7 +3,7 @@
 ## Descrption
 The project states services offered a at Delani studio
 
-## Author's Infrmation
+## Author's Information
 My name is Michael Omondi
 I am 21 years old and I am a Kenyan
 
