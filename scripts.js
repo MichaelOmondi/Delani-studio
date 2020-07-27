@@ -1,17 +1,26 @@
-$(".clickable").click(function(){
-    $(".design-hidden").slideToggle();
-    $(".design-showing").slideToggle();
-  });
+$(document).ready(function(){
+    $(".design").click(function(){
+        $(".mykey").toggle();
+       $(".design-image").toggle();
+      });
+}) 
+
+  $(document).ready(function(){
+    $(".clickable2").click(function(){
+        $(".development-hidden").toggle();
+        $(".development-showing").toggle();
+    });
+  }
   
-  $(".clickable2").click(function(){
-    $(".development-hidden").slideToggle();
-    $(".development-showing").slideToggle();
-  });
   
-  $(".clickable3").click(function(){
-    $(".management-hidden").slideToggle();
-    $(".management-showing").slideToggle();
-  });
+  $(document).ready(function(){
+    $(".clickable3").click(function(){
+        $(".management-hidden").toggle();
+        $(".management-showing").toggle();
+      });
+
+  }
+  
   
   var key = '1c2089a31a00d28af6cb0e553ed84697-us20';
   
