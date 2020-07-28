@@ -22,7 +22,7 @@ $(document).ready(function(){
   }
   
   
-  var key = '1c2089a31a00d28af6cb0e553ed84697-us20';
+//   var key = '1c2089a31a00d28af6cb0e553ed84697-us20';
   
   $("button").click(function(event) {
     event.preventDefault();
