@@ -6,20 +6,25 @@ $(document).ready(function(){
 }) 
 
   $(document).ready(function(){
-    $(".clickable2").click(function(){
-        $(".development-hidden").toggle();
-        $(".development-showing").toggle();
-    });
-  }
-  
+      $("design").click(function(){
+        $(".clickable2").click(function(){
+            $(".development-hidden").toggle();
+            $(".development-showing").toggle();
+        });
+
+      }
   
   $(document).ready(function(){
-    $(".clickable3").click(function(){
-        $(".management-hidden").toggle();
-        $(".management-showing").toggle();
-      });
+      $(".design").click(function(){
+        $(".clickable3").click(function(){
+            $(".management-hidden").toggle();
+            $(".management-showing").toggle();
+          });
+    
 
-  }
+      }
+    
+
   
   
 //   var key = '1c2089a31a00d28af6cb0e553ed84697-us20';
