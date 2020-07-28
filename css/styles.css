@@ -57,7 +57,7 @@ html {
 .mykey {
   display: none;
 }
-/* .development-hidden {
+.development-hidden {
   display: none;
 }
 .management-hidden {
@@ -149,4 +149,4 @@ input:hover {
 .social-media img:hover {
   box-shadow: 3px 3px 5px grey, -3px 0 5px grey;
   transition: 0.4s;
-} */
+}
